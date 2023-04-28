@@ -55,7 +55,7 @@ footer {
 
 /* Media Queries */
 
-@media (max-width :778px ){
+@media (max-width :500px ){
   body{
     padding-top: 40%;
   }
@@ -63,7 +63,7 @@ footer {
     margin: 10px;
     font-family: 'Lobster', cursive;
     text-shadow: 5px 0 #232931;
-    font-size: 2rem;
+    font-size: 1rem;
     color: #4ECCA3;
   }
   img {
