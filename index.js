@@ -14,7 +14,7 @@ function diceRoller(){
     if(randomNum1 > randomNum2){
         document.querySelector("h1").innerHTML = "🚩"+player1+" Win."
     }else if(randomNum1 < randomNum2){
-        document.querySelector("h1").innerHTML = "🚩"+player2+" Win."
+        document.querySelector("h1").innerHTML = player2+" Win.🚩"
     }else{
         document.querySelector("h1").innerHTML = "Draw"
     }
